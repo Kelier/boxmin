@@ -5,4 +5,4 @@ Please check my code, then you can get my all functions.you can upload this dire
 
 enjoy it.🤩
 
-![效果如下](https://github.com/Kelier/boxmin/preview.png)
+![效果如下](https://github.com/Kelier/boxmin/blob/master/pipe.png)

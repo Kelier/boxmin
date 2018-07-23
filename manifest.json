@@ -1,0 +1,19 @@
+{
+  "name": "boxmin",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "获取图片数据",
+  "permissions": ["http://*/"],
+  "icons": {
+    "64": "pipe.png"
+  },
+  "browser_action": {
+    "default_icon": "pipe.png",
+    "default_popup": "boxmin.html"
+  },
+  "content_scripts": [{
+        "matches": ["http://*/", "https://*/", "http://*/*", "https://*/*"],
+        "js": ["jquery-1.8.2.min.js", "touchpop.js"],
+        "css": ["style.css"]
+    }]
+}

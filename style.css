@@ -1,0 +1,31 @@
+.field-set {
+  width: 200px;
+  background: #252121;
+  color: #9e9d95;
+  box-shadow: -1px 1px 5px #0c0101;
+  padding: 5px;
+  z-index: 2147483647;
+}
+
+.field-style {
+  border: none;
+  display: inline-block;
+  width: 75px;
+  font-size: 12px;
+}
+
+.field-style:last-child {
+  width: 100%;
+}
+
+.field-input {
+  background: transparent;
+  border: none;
+  width: 50px;
+  color: #827c58;
+}
+
+.field-style:last-child .field-input {
+  width: 100px;
+  color: #827c58;
+}
